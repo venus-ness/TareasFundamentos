@@ -30,10 +30,7 @@ public class Main {
         Asi convertimos coordenadas cartesianas (x, y) en coordenadas polares (r, 0).
          */
 
-        double xDelta = xDos - xUno;
-        double yDelta = yDos - yUno;
-
-        double anguloRadianes = Math.atan2(xDelta, yDelta);
+        double anguloRadianes = Math.atan2(yDos - yUno, xDos - xUno);
         System.out.println("Ángulo en radianes: " + anguloRadianes);
 
         // Convertimos de radianes a grados
