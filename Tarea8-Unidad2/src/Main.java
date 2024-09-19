@@ -41,15 +41,5 @@ public class Main {
         double anguloGrados = Math.toDegrees(anguloRadianes);
         System.out.println("Ángulo en grados: " + anguloGrados);
 
-
-
-
-
-
-
-
-
-
-
     }
 }
