@@ -24,8 +24,8 @@ public class Main {
         String minuscula = palabra.toLowerCase();
         System.out.println("En minusculas: " + minuscula);
 
-        String ultimaOcurrencia = palabra.substring(7, 1);
-        System.out.println("Subcadena desde la posicion: " + ultimaOcurrencia);
+        String subcadena = palabra.substring(6);
+        System.out.println("Subcadena desde la posicion: " + subcadena);
 
         int uOcurrencia = palabra.indexOf("li");
         System.out.println("Ultima ocurrencia: " + uOcurrencia);
